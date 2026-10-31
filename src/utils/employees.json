@@ -1,0 +1,539 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "email": "employee1@gmail.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Design Login Page",
+          "taskDescription": "Create a responsive login page with email and password fields.",
+          "taskDate": "2026-10-27",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Create Navbar",
+          "taskDescription": "Build a navigation bar with links to all main pages.",
+          "taskDate": "2026-10-24",
+          "category": "Development"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Fix Login Validation",
+          "taskDescription": "Validate email format and ensure the password is not empty.",
+          "taskDate": "2026-10-28",
+          "category": "Bug Fix"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "API Integration",
+          "taskDescription": "Connect the frontend login form to the authentication API.",
+          "taskDate": "2026-10-23",
+          "category": "Backend"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Update Dashboard UI",
+          "taskDescription": "Improve the dashboard layout and card spacing.",
+          "taskDate": "2026-10-25",
+          "category": "UI/UX"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Write Unit Tests",
+          "taskDescription": "Write tests for login and registration functionality.",
+          "taskDate": "2026-10-29",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Add Forgot Password",
+          "taskDescription": "Create a password recovery form for users.",
+          "taskDate": "2026-10-30",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Review Requirements",
+          "taskDescription": "Review and document the authentication requirements.",
+          "taskDate": "2026-10-22",
+          "category": "Planning"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Optimize CSS",
+          "taskDescription": "Remove duplicate CSS rules and improve responsive styling.",
+          "taskDate": "2026-10-31",
+          "category": "UI/UX"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Deploy Frontend",
+          "taskDescription": "Deploy the frontend application and resolve build errors.",
+          "taskDate": "2026-10-26",
+          "category": "Deployment"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "employee2@gmail.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Build REST API",
+          "taskDescription": "Develop REST endpoints for employee management.",
+          "taskDate": "2026-10-27",
+          "category": "Backend"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Setup Database",
+          "taskDescription": "Create the database schema for employees and tasks.",
+          "taskDate": "2026-10-23",
+          "category": "Database"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Implement Authentication",
+          "taskDescription": "Implement authentication and session validation.",
+          "taskDate": "2026-10-28",
+          "category": "Security"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Fix Database Connection",
+          "taskDescription": "Investigate intermittent database connection failures.",
+          "taskDate": "2026-10-24",
+          "category": "Bug Fix"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Create User Model",
+          "taskDescription": "Define the employee model and required fields.",
+          "taskDate": "2026-10-22",
+          "category": "Backend"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Add API Error Handling",
+          "taskDescription": "Return consistent error messages and HTTP status codes.",
+          "taskDate": "2026-10-29",
+          "category": "Backend"
+        },
+        {
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Write API Documentation",
+          "taskDescription": "Document endpoints, request bodies, and responses.",
+          "taskDate": "2026-10-30",
+          "category": "Documentation"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Test API Endpoints",
+          "taskDescription": "Test employee endpoints with valid and invalid requests.",
+          "taskDate": "2026-10-25",
+          "category": "Testing"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Implement Search",
+          "taskDescription": "Add search functionality for employee records.",
+          "taskDate": "2026-11-01",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Optimize Queries",
+          "taskDescription": "Improve slow database queries and response times.",
+          "taskDate": "2026-10-26",
+          "category": "Performance"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "email": "employee3@gmail.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Design Employee Dashboard",
+          "taskDescription": "Create a dashboard showing employee tasks and progress.",
+          "taskDate": "2026-10-27",
+          "category": "UI/UX"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Create Task Cards",
+          "taskDescription": "Design reusable cards to display task information.",
+          "taskDate": "2026-10-22",
+          "category": "UI/UX"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Add Task Filters",
+          "taskDescription": "Allow employees to filter tasks by status and category.",
+          "taskDate": "2026-10-28",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Fix Mobile Layout",
+          "taskDescription": "Resolve layout issues on smaller mobile screens.",
+          "taskDate": "2026-10-24",
+          "category": "Bug Fix"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Build Profile Page",
+          "taskDescription": "Display employee profile information and account details.",
+          "taskDate": "2026-10-23",
+          "category": "Development"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Add Notifications",
+          "taskDescription": "Display notifications for new and updated tasks.",
+          "taskDate": "2026-10-29",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Improve Accessibility",
+          "taskDescription": "Add accessible labels and keyboard navigation.",
+          "taskDate": "2026-10-30",
+          "category": "UI/UX"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Create Loading Screen",
+          "taskDescription": "Add loading indicators while fetching task data.",
+          "taskDate": "2026-10-25",
+          "category": "UI/UX"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Add Pagination",
+          "taskDescription": "Display long task lists across multiple pages.",
+          "taskDate": "2026-11-01",
+          "category": "Development"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Implement Dark Mode",
+          "taskDescription": "Add a theme switcher for light and dark modes.",
+          "taskDate": "2026-10-26",
+          "category": "UI/UX"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "email": "employee4@gmail.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Prepare Test Cases",
+          "taskDescription": "Create test cases for employee login and task management.",
+          "taskDate": "2026-10-27",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Test Registration",
+          "taskDescription": "Verify registration with valid and invalid inputs.",
+          "taskDate": "2026-10-22",
+          "category": "Testing"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Test Task Assignment",
+          "taskDescription": "Verify that administrators can assign tasks to employees.",
+          "taskDate": "2026-10-28",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Report UI Bugs",
+          "taskDescription": "Identify and document inconsistent UI behavior.",
+          "taskDate": "2026-10-24",
+          "category": "Bug Fix"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Test Password Validation",
+          "taskDescription": "Check password validation for different input values.",
+          "taskDate": "2026-10-23",
+          "category": "Security"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Run Regression Tests",
+          "taskDescription": "Verify that recent changes have not broken existing features.",
+          "taskDate": "2026-10-29",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Verify API Responses",
+          "taskDescription": "Check response structures and HTTP status codes.",
+          "taskDate": "2026-10-30",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Test Search Feature",
+          "taskDescription": "Verify search results for different employee queries.",
+          "taskDate": "2026-10-25",
+          "category": "Testing"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Check Browser Compatibility",
+          "taskDescription": "Test the application across supported web browsers.",
+          "taskDate": "2026-11-01",
+          "category": "Testing"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Validate Deployment",
+          "taskDescription": "Check the deployed application and record any failures.",
+          "taskDate": "2026-10-26",
+          "category": "Deployment"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "email": "employee5@gmail.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Configure Deployment",
+          "taskDescription": "Prepare the application configuration for deployment.",
+          "taskDate": "2026-10-27",
+          "category": "Deployment"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Setup Git Repository",
+          "taskDescription": "Organize project branches and repository files.",
+          "taskDate": "2026-10-22",
+          "category": "DevOps"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Configure Environment Variables",
+          "taskDescription": "Set up environment variables for development and production.",
+          "taskDate": "2026-10-28",
+          "category": "DevOps"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Fix Build Errors",
+          "taskDescription": "Investigate and resolve production build failures.",
+          "taskDate": "2026-10-24",
+          "category": "Bug Fix"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Setup Logging",
+          "taskDescription": "Configure application logs for debugging and monitoring.",
+          "taskDate": "2026-10-23",
+          "category": "DevOps"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Configure CI Pipeline",
+          "taskDescription": "Automate basic build and test checks using CI.",
+          "taskDate": "2026-10-29",
+          "category": "DevOps"
+        },
+        {
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Monitor Application Health",
+          "taskDescription": "Add health checks for the running application.",
+          "taskDate": "2026-10-30",
+          "category": "Monitoring"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Review Security Settings",
+          "taskDescription": "Check production configuration for common security issues.",
+          "taskDate": "2026-10-25",
+          "category": "Security"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Optimize Asset Loading",
+          "taskDescription": "Reduce unnecessary assets and improve initial page loading.",
+          "taskDate": "2026-11-01",
+          "category": "Performance"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Verify Production Deployment",
+          "taskDescription": "Verify deployment endpoints and investigate server errors.",
+          "taskDate": "2026-10-26",
+          "category": "Deployment"
+        }
+      ]
+    }
+  ]
+}
