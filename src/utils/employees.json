@@ -105,7 +105,14 @@
           "taskDate": "2026-10-26",
           "category": "Deployment"
         }
-      ]
+      ],
+      "firstname": "Aarav",
+      "taskNumbers": {
+        "active": 4,
+        "newTask": 2,
+        "completed": 3,
+        "failed": 2
+      }
     },
     {
       "id": 2,
@@ -212,7 +219,14 @@
           "taskDate": "2026-10-26",
           "category": "Performance"
         }
-      ]
+      ],
+      "firstname": "Vivaan",
+      "taskNumbers": {
+        "active": 4,
+        "newTask": 2,
+        "completed": 3,
+        "failed": 2
+      }
     },
     {
       "id": 3,
@@ -319,7 +333,14 @@
           "taskDate": "2026-10-26",
           "category": "UI/UX"
         }
-      ]
+      ],
+      "firstname": "Aditya",
+      "taskNumbers": {
+        "active": 4,
+        "newTask": 2,
+        "completed": 3,
+        "failed": 2
+      }
     },
     {
       "id": 4,
@@ -426,7 +447,14 @@
           "taskDate": "2026-10-26",
           "category": "Deployment"
         }
-      ]
+      ],
+      "firstname": "Ishaan",
+      "taskNumbers": {
+        "active": 4,
+        "newTask": 2,
+        "completed": 3,
+        "failed": 2
+      }
     },
     {
       "id": 5,
@@ -533,7 +561,14 @@
           "taskDate": "2026-10-26",
           "category": "Deployment"
         }
-      ]
+      ],
+      "firstname": "Arjun",
+      "taskNumbers": {
+        "active": 4,
+        "newTask": 2,
+        "completed": 3,
+        "failed": 2
+      }
     }
   ]
 }
